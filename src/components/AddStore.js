@@ -20,7 +20,7 @@ export default function AddButton() {
       style={{ textDecoration: "none" }}
     >
       <div className={classes.root}>
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="primary" >
           Add New Store
         </Button>
       </div>
