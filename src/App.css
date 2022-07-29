@@ -1,10 +1,7 @@
 .MuiListItem-root {
   height: 54px;
 }
-body {
-background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fcontent%2Fimages%2F2021%2F06%2Fw-qjCHPZbeXCQ-unsplash.jpg&imgrefurl=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fhow-to-add-an-image-url-to-your-div%2F&tbnid=s8cnn8j7VwoKqM&vet=12ahUKEwjzq8CT6575AhX5BbcAHTUBBYUQMygoegUIARC-Ag..i&docid=kmIztsADtIrUXM&w=2000&h=1333&q=background%20image&ved=2ahUKEwjzq8CT6575AhX5BbcAHTUBBYUQMygoegUIARC-Ag");
-background-coloe: pink;
-}
+
 .main-content {
   display: flex;
   flex-direction: column;
