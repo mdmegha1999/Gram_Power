@@ -1,0 +1,20 @@
+Button {
+  background-color: rgb(53, 53, 232);
+  border: none;
+  height: 40px;
+  width: 100px;
+  font-family: initial;
+  font-size: medium;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px #666;
+  border-radius: 25px;
+  
+}
+Button:hover {background-color: #3c6e3e}
+
+Button:active {
+  background-color: #086a2a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
