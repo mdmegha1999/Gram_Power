@@ -1,5 +1,5 @@
 import React from "react";
-import './ViewStore.css';
+
 function ViewStore(props) {
   return (
     <div className="hours_day">
