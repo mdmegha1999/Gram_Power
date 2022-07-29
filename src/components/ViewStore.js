@@ -1,8 +1,8 @@
 import React from "react";
-
+import './ViewStore.css';
 function ViewStore(props) {
   return (
-    <>
+    <div className="hours_day">
       <h1>{props.storeDetails.title}</h1>
       <div className="store_details_container">
         <img
@@ -70,7 +70,7 @@ function ViewStore(props) {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
