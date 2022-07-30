@@ -12,7 +12,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Divider from "@material-ui/core/Divider";
 import { StoreListContext } from "../App";
 import { SetStoreListContext } from "../App";
-
+import './Style.css';
 const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 10,
@@ -99,7 +99,7 @@ export default function NewStoreForm(props) {
 
   const classes = useStyles();
   return (
-    <Card className={classes.root}>
+    <Card id="add_content" className={classes.root}>
       <form onSubmit={addStore} autoComplete="off" className="newStoreForm">
         <Typography variant="h5">
           <IconButton
@@ -281,7 +281,7 @@ export default function NewStoreForm(props) {
           >
             Discard
           </Button>
-          <Button type="submit" variant="contained" color="primary">
+          <Button id="save_btn" type="submit" variant="contained" color="primary">
             Save
           </Button>
         </CardActions>
