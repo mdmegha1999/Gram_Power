@@ -8,6 +8,7 @@ import ShopIcon from "@mui/icons-material/Shop";
 import DeleteOutlinedIcon from "@material-ui/icons/DeleteOutlined";
 import { StoreListContext } from "../App";
 import { SetStoreListContext } from "../App";
+import './Style.css';
 
 function StoreItem(props) {
   const navigate = useNavigate();
@@ -42,12 +43,12 @@ function StoreItem(props) {
         style={{ display: "flex", height: "inherit", alignItems: "center" }}
       >
         <div className="title_div">
-          <ListItemText primary={props.store.title} />
+          <ListItemText primary={props.store.title} id="item_list" />
         </div>
       </div>
       <ListItemIcon onClick={deleteStore}>
         <IconButton>
-          <DeleteOutlinedIcon />
+          <DeleteOutlinedIcon id="delet_btn"/>
         </IconButton>
       </ListItemIcon>
     </ListItem>
