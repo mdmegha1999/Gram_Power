@@ -1,0 +1,41 @@
+#add_btn{
+    background-color: rgb(18, 67, 50);
+    box-shadow: 3px 3px 3px 3px rgb(104, 102, 102);
+}
+#add_btn:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+#add_content{
+    background-color: rgb(199, 218, 115);
+}
+body{
+    background-color: rgb(250, 215, 245);
+}
+#delet_btn{
+    background-color: transparent;
+}
+#delet_btn:hover{
+    background-color: rgb(243, 19, 19);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#item_list:hover{
+    color: #0dbb0d;
+    
+}
+#save_btn{
+    background-color: #056c05;
+}
+#store_content{
+    background-color: rgba(240, 153, 236, 0.316);
+
+}
+.heading{
+    text-align: center;
+    background-color: rgb(32, 6, 32);
+    color: #fff;
+    margin-top: 0;
+    height: 50px;
+}
