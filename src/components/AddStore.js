@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-
+import './Style.css';
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -20,7 +20,7 @@ export default function AddButton() {
       style={{ textDecoration: "none" }}
     >
       <div className={classes.root}>
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="primary" id="add_btn">
           Add New Store
         </Button>
       </div>
