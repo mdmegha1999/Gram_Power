@@ -1,9 +1,9 @@
 import React from "react";
-import { addStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { Add } from "react-router-dom";
 import './Style.css';
-const useStyles = addStyles((theme) => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
       margin: theme.spacing(1)
