@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import { Add } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Style.css';
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 export default function AddButton() {
   const classes = useStyles();
   return (
-    <Add
+    <Link
       to="/AddNewStore"
       className="add_button"
       style={{ textDecoration: "none" }}
@@ -24,6 +24,6 @@ export default function AddButton() {
           Add New Store
         </Button>
       </div>
-    </Add>
+    </Link>
   );
 }
