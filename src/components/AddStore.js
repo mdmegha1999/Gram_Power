@@ -12,14 +12,14 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function AddButton() {
-  const rootClass = useStyles();
+  const classes = useStyles();
   return (
     <Add
       to="/AddNewStore"
       className="add_button"
       style={{ textDecoration: "none" }}
     >
-      <div className={rootClass.root}>
+      <div className={classes.root}>
         <Button variant="contained" color="primary" id="add_btn">
           Add New Store
         </Button>
